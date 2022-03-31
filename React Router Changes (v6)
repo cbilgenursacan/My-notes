@@ -1,0 +1,22 @@
+Changes from React Router v5 to v6
+
+1) Switch became Routes
+
+2) Route now has element variable and we pass te component to it rather than use it as its child
+
+3) We dont need exact key now (if necessary we still can use the old behaviour with adding * to our path)
+
+4) activeClassName has gone we can use navData.isActive with arrow function
+
+5) Redirect became Navigate (we can also use replace key if we dont want to push a new page)
+
+6) We have to wrap our nested routes with Routes to work now
+
+7) Now paths are relative so we dont have to use exact path in nested routes or links
+
+8) Outline can be used for saying react where our ralative paths should be count
+
+9) useHistory become useNavigate with changes (exp: navigate('/main', {replace: true}; (also we can navigate with numbers) )
+
+10) Prompt is deleted  
+
